@@ -1,0 +1,91 @@
+body {
+    font-family: "Arial", monospace;
+    min-height: 800px;
+    background-size: 80vh;
+    background-position: center bottom;
+    background-color: black;
+    background-repeat: repeat;
+  }
+  
+  .container {
+    display: block;
+    padding: 40px;
+  }
+  
+  .page-title {
+    color: yellow;
+    text-align: center;
+    margin-top: 34px;
+    margin: 5px;
+  }
+  
+  .page-subtitle {
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .formulario {
+    text-align: center;
+    width: 540px;
+    height: 370px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 8px;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
+    float: absolute;
+    display: in-line;
+  }
+  
+  .box {
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+  }
+  
+  .bimestre {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .botao {
+    width: 220px;
+    height: 40px;
+    font-size: 14px;
+    background: #00ffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .botao:hover {
+    width: 220px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #00ff22;
+    border: none;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resultado {
+    color: white;
+    font-size: 17px;
+  }
+  
+  .rodape {
+    margin: 0 auto;
+    height: 40px;
+  }
+  
+  .page-logo {
+    width: 100px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    margin-top: 36px;
+  }
+  

@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+  <title>Calculadora de Média!</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      CALCULADORA DE MÉDIA!</h1>
+    <p class="page-subtitle">
+      Descubra qual a sua média anual.
+    </p>
+    <div class=formulario>
+      <p>Preencha os campos abaixo:</p>
+       <p class="bimestre">Nome Do Aluno</p> 
+       <input class=box type="string" id="name">
+      <p class="bimestre">Primeiro Bimestre</p>
+      <input class=box type="number" id="primeiro">
+      <p class="bimestre">Segundo Bimestre</p>
+      <input class=box type="number" id="segundo">
+      <p class="bimestre">Terceiro Bimestre</p>
+      <input class=box type="number" id="terceiro">
+      <p class="bimestre">Quarto Bimestre</p>
+      <input class=box type="number" id="quarto">
+      <p><button type="submit" onclick="Média()" class=botao>Calcule sua média! </button></p>
+      <h2 id="valorDaMédia" class="resultado"></h2>
+      <h3 id="aprovado" class="aprovado"></h3>
+      <h4 id="reprovado" class="reprovado"></h4>
+
+      <div class="rodape">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="Alura" class="alura-logo">
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
